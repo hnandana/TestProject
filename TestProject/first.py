@@ -1,3 +1,6 @@
 #!/usr/bin/python
-name=Haritha
-print len(x)
+name=raw_input("Enter:")
+print ("name is %s ",name)
+print len(name)
+for letter in name:
+        print letter
